@@ -2,6 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+/* import css */
+@import './globals.css';
+
+/* font */
+@layer base {
+  @font-face {
+    font-family: Itim;
+    src: url('./Itim-Regular.ttf');
+  }
+}
+@layer base {
+  html {
+    font-family: Itim, system-ui, sans-serif;
+  }
+}
 
 .task-list-item::before {
   @apply hidden;
@@ -24,5 +39,3 @@ input:-webkit-autofill,
 input:-webkit-autofill:focus {
   transition: background-color 600000s 0s, color 600000s 0s;
 }
-
-@import './style.css';

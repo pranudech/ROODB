@@ -25,8 +25,7 @@ module.exports = {
         14: '3.5rem',
       },
       fontFamily: {
-        // sans: ['InterVariable', ...defaultTheme.fontFamily.sans],
-        sans: ['"Mali"', 'sans-serif']
+        sans: ['InterVariable', ...defaultTheme.fontFamily.sans],
       },
       colors: {
         primary: colors.teal,
@@ -165,5 +164,8 @@ module.exports = {
       }),
     },
   },
-  plugins: [require('@tailwindcss/forms'), require('@tailwindcss/typography')],
+  plugins: [
+    require('@tailwindcss/forms'),
+    require('@tailwindcss/typography'),
+  ],
 }
