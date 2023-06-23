@@ -1,7 +1,7 @@
 const siteMetadata = {
   title: 'ROO Database',
   author: 'PNDCODING',
-  headerTitle: 'ROO Database',
+  headerTitle: 'ROO Database 1.0',
   description: 'ศูนย์รวบรวมข้อมูล ragnarok origin',
   language: 'en-us',
   theme: 'system', // system, dark or light

@@ -17,7 +17,6 @@
     font-family: Itim, system-ui, sans-serif;
   }
 }
-
 .task-list-item::before {
   @apply hidden;
 }
