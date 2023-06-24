@@ -1,5 +1,8 @@
-@import './primereact/primereact.min.css';
-@import './primereact/themes/lara-light-indigo/theme.css';
+@import url('./primereact/primereact.min.css');
+@import url('./primereact/themes/lara-light-indigo/theme.css');
+
+@import url(./classes.css);
+@import url(./index.css);
 
 .p-component {
   font-family: Itim, system-ui, sans-serif !important;

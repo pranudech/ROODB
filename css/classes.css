@@ -1,0 +1,26 @@
+ul.detailJobs_area {
+    width: 1024px;
+    height: 123px;
+    position: absolute;
+    z-index: 1;
+    top: 82%;
+    left: 50%;
+    margin-left: -523px;
+    background: url(https://d38r36tibovzs2.cloudfront.net/games/roona/20230327ZFCK/web/images/gameIntro/btn_detailJobs_off.png) no-repeat;
+}
+
+ul.detailJobs_area li.btn_jobs0 {
+    background-position: -83px 0px;
+    left: 8.1%;
+}
+
+ul.detailJobs_area li.btn_jobs0:active {
+    background: url(https://d38r36tibovzs2.cloudfront.net/games/roona/20230327ZFCK/web/images/gameIntro/btn_detailJobs_on.png) no-repeat;
+}
+
+ul.detailJobs_area li.btn_jobs0:hover {
+    background: url(https://d38r36tibovzs2.cloudfront.net/games/roona/20230327ZFCK/web/images/gameIntro/btn_detailJobs_on.png) no-repeat;
+}
+ul.detailJobs_area li.btn_jobs1:hover {
+    background: url(https://d38r36tibovzs2.cloudfront.net/games/roona/20230327ZFCK/web/images/gameIntro/btn_detailJobs_on.png) no-repeat;
+}

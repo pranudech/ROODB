@@ -22,9 +22,7 @@ class MyDocument extends Document {
           <meta name="msapplication-TileColor" content="#000000" />
           <meta name="theme-color" media="(prefers-color-scheme: light)" content="#fff" />
           <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000" />
-          <meta http-equiv="X-Frame-Options" content="deny"/>
-          {/* https://www.roodb.id */}
-          {/* <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://www.roodb.id 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *;**script-src 'self' https://www.roodb.id 'unsafe-inline' 'unsafe-eval';** "/> */}
+          <meta charset="utf-8" />
           <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
         </Head>
         <body className="bg-white text-black antialiased dark:bg-gray-900 dark:text-white">

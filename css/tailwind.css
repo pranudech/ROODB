@@ -9,7 +9,7 @@
 @layer base {
   @font-face {
     font-family: Itim;
-    src: url('./Itim-Regular.ttf');
+    src: url('./fonts/Itim-Regular.ttf');
   }
 }
 @layer base {
